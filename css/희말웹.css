@@ -1,0 +1,27 @@
+/**************.설명***************/
+.sample {display: inline-block;}
+
+/**************.common***************/
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;}
+
+/**************.header-wrapper***************/
+.header-wrapper {background-color: rgb(255, 24, 93); color: white; padding: 13px; font-size: 19px;}
+.header-wrapper .category-wrap {float: left;}
+.header-wrapper .category-wrap .category {padding: 12px 24px;}
+.header-wrapper .category-wrap .category:hover {opacity: 50%;}
+.header-wrapper .heart-wrap {float:right; padding: 0 12px; }
+
+
+/**************.main-wrapper***************/
+.main-wrapper {}
+/**************.intro-wrapper***************/
+
+/**************.contents-wrapper***************/
+
+/**************.contact-wrapper***************/
+
+/**************.footer-wrapper***************/

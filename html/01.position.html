@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position을 배워보자</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <style>
+        /*position: static|absolute|relative|fixed|sticky (꼭 필요할 때만 쓰기)*/
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+/* font-family: 'Lato', sans-serif; */
+
+
+html, body {font-family: 'Lato', sans-serif; font-size: 15px; height: 5000px;}
+        .wrapper {max-width: 800px; margin: auto;}
+        .wrapper1 {position: relative;}
+        .logo {position:absolute; top: 50px; left: 50px;}
+        .top {font-size: 50px; position: fixed; bottom: 50px; right: 50px;}
+    </style>
+</head>
+
+<body>
+    <div class="wrapper wrapper1">
+        <h1 class="logo">LOGO</h1>
+        <img src="../img/parallax1.jpg" alt="배경" class="w100">
+    </div>
+    <div class="wrapper wrapper2">
+        <img src="../img/parallax2.jpg" alt="배경" class="w100">
+    </div>
+    <div class="wrapper wrapper3">
+        <img src="../img/parallax3.jpg" alt="배경" class="w100">
+    </div>
+    <i class="top fa fa-arrow-circle-up"></i>
+</body>
+
+</html>
