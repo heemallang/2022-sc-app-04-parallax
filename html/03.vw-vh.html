@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>vw/vh/Background</title>
+    <title>vw-vh</title>
     <link rel="stylesheet" href="../css/base.css">
     <style>
         /*overflow: visible|hidden|scroll|auto*/
         /*overflow-y: visible|hidden|scroll|auto*/
         /*overflow-x: visible|hidden|scroll|auto*/
         /* .wrapper {text-align: center; margin: auto; font-size: 8vw; padding: 8vw;} */
+        .container {border: 10px solid red;}
+        .container .wrapper {border: 10px solid blue;}
+        .container .wrapper .wrap {border: 10px solid green; min-height: clac(100vh-40px);}
     </style>
 </head>
 <body>
@@ -20,7 +23,7 @@
     <div class="container">
         <div class="wrapper">
             <div class="wrap">
-
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nesciunt repellat similique! Omnis commodi doloremque aut ea provident, laudantium quod iusto fugiat. Minus perspiciatis sit magni aliquam nobis eaque totam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel perspiciatis blanditiis culpa voluptate, quis temporibus cumque ratione. Voluptate nobis exercitationem ipsam, vero, id sunt eveniet quos odio sit error tenetur.
             </div>
         </div>
     </div>
