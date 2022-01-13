@@ -12,7 +12,7 @@ html, body {font-family: 'Lato', sans-serif; font-size: 15px; height: 5000px;}
 
 
 /****************************header-wrapper*****************************/
-.header-wrapper {}
+.header-wrapper {position: fixed; z-index: 9999; top: 0; left: 0; width: 100%;}
 .header-wrapper .navi-wrap {}
 .header-wrapper .navi-wrap .navi-wp {float: left;}
 .header-wrapper .navi-wrap .search-wp {float: right;}
@@ -21,7 +21,13 @@ html, body {font-family: 'Lato', sans-serif; font-size: 15px; height: 5000px;}
 .header-wrapper .navi-wrap .search-wp .navi:hover {background-color: #f31; color: #fff;}
 
 /****************************main-wrapper*****************************/
-
+.main-wrapper {height: 100vh; 
+    background-image:url('../img/parallax1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    opacity: 0.75; padding: 48vh 0; text-align: center;}
+.main-wrapper h1.logo {background-color: #000; color: #fff; letter-spacing: 11px; display: inline-block; padding: 12px 14px;}
 /****************************about-wrapper*****************************/
 
 /****************************pf-wrapper*****************************/
