@@ -21,12 +21,13 @@ html, body {font-family: 'Lato', sans-serif; font-size: 15px; height: 5000px;}
 .header-wrapper .navi-wrap .search-wp .navi:hover {background-color: #f31; color: #fff;}
 
 /****************************main-wrapper*****************************/
-.main-wrapper {height: 100vh; 
+.main-wrapper {display: table; width: 100%; height: 100vh; 
     background-image:url('../img/parallax1.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed; 
-    opacity: 0.75; padding: 48vh 0; text-align: center;}
+    opacity: 0.75; }
+.main-wrapper > div {display: table-cell; text-align: center; vertical-align: middle;} /*div에서 vertical-align이 안먹으니까 상위 wrapper에 display:table, div에 display:table-cell해주기*/
 .main-wrapper h1.logo {background-color: #000; color: #fff; letter-spacing: 11px; display: inline-block; padding: 12px 14px;}
 /****************************about-wrapper*****************************/
 
