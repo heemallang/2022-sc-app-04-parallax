@@ -40,8 +40,9 @@ p.content {line-height: 1.75; margin-bottom: 48px;}
 .about-wrapper .my-wp h4.title {margin-bottom:42px; font-weight: bold;}
 .about-wrapper .my-wp h4.title .fa {margin-right: 16px;}
 .about-wrapper .story-wp {line-height: 1.82; }
-.about-wrapper .my-wp img { margin: 10px; opacity: .6; transition: all .7s;}
-.about-wrapper .my-wp img:hover { opacity: 100%; transform: scale(1.2);}
+.about-wrapper .my-wp .imgs {overflow: hidden;}
+.about-wrapper .my-wp img { opacity: .5; transition: all .5s;}
+.about-wrapper .my-wp img:hover { opacity: 1.75; transform: scale(1.2);}
 
 
 /****************************pf-wrapper*****************************/
