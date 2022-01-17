@@ -44,6 +44,10 @@ p.content {line-height: 1.75; margin-bottom: 48px;}
 .about-wrapper .my-wp img { opacity: .5; transition: all .5s;}
 .about-wrapper .my-wp img:hover { opacity: 1.75; transform: scale(1.2);}
 
+.about-wrapper .box-wrap {padding: 30px 200px; }
+.about-wrapper .box-wrapper h3.title {font-style: normal; margin-bottom: 30px;}
+.about-wrapper .box-wrapper h4.title {;}
+.about-wrapper .box-wrapper h4.title .fa {margin-right: 16px;}
 
 /****************************pf-wrapper*****************************/
 
