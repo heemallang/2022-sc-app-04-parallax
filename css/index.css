@@ -34,21 +34,21 @@ p.content {line-height: 1.75; margin-bottom: 48px;}
 .main-wrapper h1.logo {background-color: #000; color: #fff; letter-spacing: 11px; display: inline-block; padding: 12px 14px;}
 
 /****************************about-wrapper*****************************/
-.about-wrapper .info-wrap {}
+.about-wrapper h4.title {margin-bottom:42px; font-weight: bold; text-align: center; font-size: 18px;}
+.about-wrapper .info-wrap {margin-bottom: 48px;}
 .about-wrapper .info-wrap > div {width: 50%; padding: 16px; float: left;}
-.about-wrapper .my-wp {text-align: center;}
-.about-wrapper .my-wp h4.title {margin-bottom:42px; font-weight: bold;}
+.about-wrapper .my-wp {}
 .about-wrapper .my-wp h4.title .fa {margin-right: 16px;}
 .about-wrapper .story-wp {line-height: 1.82; }
 .about-wrapper .my-wp .imgs {overflow: hidden;}
 .about-wrapper .my-wp img { opacity: .5; transition: all .5s;}
 .about-wrapper .my-wp img:hover { opacity: 1.75; transform: scale(1.2);}
-
-.about-wrapper .box-wrap {padding: 30px 200px; }
-.about-wrapper .box-wrapper h3.title {font-style: normal; margin-bottom: 30px;}
-.about-wrapper .box-wrapper h4.title {;}
-.about-wrapper .box-wrapper h4.title .fa {margin-right: 16px;}
-
+.about-wrapper h5.title {font-size:  16px; letter-spacing: 10px; margin-bottom: 20px;}
+.about-wrapper .skill .bars {background-color: #eee;}
+.about-wrapper .skill .bars .bar {background-color: #555; color: #fff; text-align: center; padding: 12px; margin-bottom: 18px;}
+.about-wrapper .skill:nth-child(1) .bars .bar {width: 90%;}
+.about-wrapper .skill:nth-child(2) .bars .bar {width: 85%;}
+.about-wrapper .skill:nth-child(3) .bars .bar {width: 80%;}
 /****************************pf-wrapper*****************************/
 
 /****************************contact-wrapper*****************************/
